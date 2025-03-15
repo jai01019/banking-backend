@@ -43,7 +43,7 @@ router.get('/', auth(['banker']), async (req, res) => {
   try {
     // Fetch all customer accounts from the database
     const [users] = await db.query(
-      'SELECT id, name, email, created_at FROM Users WHERE role = "customer"'
+      'SELECT id, name, email, created_at FROM users WHERE role = "customer"'
     );
 
     // Wrap the response in an object with an 'accounts' key
