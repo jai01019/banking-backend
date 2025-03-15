@@ -29,7 +29,7 @@ router.get('/', auth(['customer', 'banker']), async (req, res) => {
             [transactions] = await db.query(`
                 SELECT a.id, a.user_id, a.type, a.amount, a.created_at, u.name, u.email 
                 FROM accounts a
-                JOIN Users u ON a.user_id = u.id
+                JOIN users u ON a.user_id = u.id
             `);
 
             // Calculate the total balance across all accounts for the banker
