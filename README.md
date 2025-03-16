@@ -114,16 +114,16 @@ Response:
 
 Key Features
  User Authentication:
- Secure registration and login using JWT tokens.
+   Secure registration and login using JWT tokens.
  Role-Based Access Control:
- Differentiates between customers and bankers.
+   Differentiates between customers and bankers.
  Transaction Management:
- Supports deposits, withdrawals, and fetching transaction history.
+    Supports deposits, withdrawals, and fetching transaction history.
  Validation:
- Validates user inputs (e.g., email format, password strength).
+    Validates user inputs (e.g., email format, password strength).
  Error Handling:
- Returns meaningful error messages for invalid requests or server 
- errors.
+    Returns meaningful error messages for invalid requests or server 
+    errors.
 
 Conclusion
 This README provides a comprehensive guide for setting up and understanding both the frontend and backend of the banking application. Follow the instructions carefully to ensure smooth installation and usage. If you encounter any issues, feel free to raise them in the repository's issue tracker.
